@@ -1,12 +1,16 @@
 //import logo from './logo.svg';
 import './App.css';
+import profile from './components/profile';
+import home from './components/home';
+import signup from './components/signup';
+import login from './components/login';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
    <BrowserRouter>
    <Routes>
-   <Route path="/" element={<home/>}></Route>
+    <Route path="/" element={<home/>}></Route>
     <Route path="/login" element={<login/>}></Route>
     <Route path="/signup" element={<signup/>}></Route>
     <Route path="/posts" element={<posts/>}></Route>
