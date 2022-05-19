@@ -14,12 +14,12 @@ export default function Signup() {
       autoComplete="off"
     >
       <h2>Sign Up</h2>
-      <TextField id="outlined-basic" label="first name" variant="outlined" />
-      <TextField id="outlined-basic" label="last name" variant="outlined" /><br></br>
-      <TextField id="outlined-basic" label="email" variant="outlined" />
-      <TextField id="outlined-basic" label="phone" variant="outlined" /><br></br>
-      <TextField id="outlined-basic" label="password" variant="outlined" />
-      <TextField id="outlined-basic" label="re-enter password" variant="outlined" /><br></br>
+      <TextField id="outlined-basic" label="First Name" variant="outlined" />
+      <TextField id="outlined-basic" label="Last Name" variant="outlined" /><br></br>
+      <TextField id="outlined-basic" label="Email" variant="outlined" />
+      <TextField id="outlined-basic" label="Phone" variant="outlined" /><br></br>
+      <TextField id="outlined-basic" label="Password" variant="outlined" />
+      <TextField id="outlined-basic" label="Confirm Password" variant="outlined" /><br></br>
       <Button variant="contained">Sign Up</Button>
     </Box>
   );
