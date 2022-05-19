@@ -1,9 +1,10 @@
 //import logo from './logo.svg';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import profile from "./components/profile";
-import home from './components/home';
-import signup from './components/signup';
-import login from './components/login';
+import Profile from "./components/Profile";
+import Home from './components/Home';
+import Signup from './components/Signup';
+import Login from './components/Login';
+import Posts from './components/Posts';
 import './App.css';
 
 
@@ -14,11 +15,11 @@ function App() {
    <BrowserRouter>
    <Routes>
      
-    <Route path="/" element={<home />}></Route>
-    <Route path="/login" element={<login />}></Route>
-    <Route path="/signup" element={<signup />}></Route>
-    <Route path="/posts" element={<posts />}></Route>
-    <Route path="/profile" element={<profile />}></Route>
+    <Route path="/" element={<Home/>}></Route>
+    <Route path="/login" element={<Login />}></Route>
+    <Route path="/signup" element={<Signup />}></Route>
+    <Route path="/posts" element={<Posts />}></Route>
+    <Route path="/profile" element={<Profile />}></Route>
     </Routes>
     </BrowserRouter>
     </>
