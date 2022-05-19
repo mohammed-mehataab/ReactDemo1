@@ -21,7 +21,7 @@ export default function Login() {
       <TextField id="outlined-basic" label="Password" variant="outlined" />
       <br></br>
      
-      <Button variant="contained">Login</Button>
+      <Button variant="contained">Login</Button><Button><p>Sign up?</p></Button>
     </Box>
   );
 }
