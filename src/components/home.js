@@ -8,6 +8,7 @@ import MenuItem from "@mui/material/MenuItem";
 import MenuList from "@mui/material/MenuList";
 import Stack from "@mui/material/Stack";
 //import Signup from './components/Signup';
+import Profile from "./Profile";
 import { Link } from "react-router-dom";
 
 
@@ -86,7 +87,7 @@ export default function DashBoard() {
                     <MenuItem onClick={handleClose}><Link to="/signup">Signup</Link> </MenuItem>
                     <MenuItem onClick={handleClose}><Link to="/login">Login</Link></MenuItem>
                     <MenuItem onClick={handleClose}><Link to="/posts">Posts</Link></MenuItem>
-                    <MenuItem onClick={handleClose}><Link to="/profile">Profile</Link></MenuItem>
+                    <MenuItem onClick={handleClose}><Link to="/Profile">Profile</Link></MenuItem>
                   </MenuList>
                 </ClickAwayListener>
               </Paper>
